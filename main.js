@@ -118,9 +118,8 @@ function enableAllButtons(){
   });
 }
 
-
 function bubbleSort() {
-  disableAllButtons();
+  disableAllButtons()
   let i = 0;
   let j = 0;
   
@@ -163,8 +162,12 @@ function bubbleSort() {
             sortStep();  // Start the next pass after finishing the inner loop
           }
 
-        }, speed);  // 500ms delay between comparisons
+        }, speed);
       }
+
+    }
+    else{
+      enableAllButtons()
     }
   }
 
