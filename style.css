@@ -1,0 +1,21 @@
+:root{
+    --bar-width: 40px;
+    --bar-color: #3498db;
+    --bar-spacing: 0px;
+    --chart-height: 200px
+}
+
+.chart-container {
+    height: var(--chart-height);
+    background-color: #f3f3f3;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.bar {
+    width: var(--bar-width);
+    background-color: var(--bar-color);
+    margin-right: var(--bar-spacing);
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+}
